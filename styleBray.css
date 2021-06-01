@@ -148,6 +148,8 @@ section .firstsection{
     background-color: black;
   
 }
+
+
 *{
     padding: 0;
     margin:0;
@@ -155,9 +157,9 @@ section .firstsection{
 }
 .container-galeria{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-auto-rows:300px;
-    padding: 5px;
+    padding: 50px;
     grid-gap:5px;
 }
 .ittem-galeria{
@@ -168,6 +170,7 @@ section .firstsection{
     width:100%;
     object-fit: cover;
 }
+
 .ittem-galeria .title-galeria{
     position:absolute;
     background-color: rgba(0,0,0,0.8);
@@ -194,6 +197,7 @@ section .firstsection{
 /*display em tela maior que 768px*/
 @media screen and (min-width: 768px){
     /*cabecalho*/
+    
 nav{
     flex-direction: row;
     justify-content:space-around;
@@ -243,5 +247,4 @@ section .firstsection{
     height: 365px;
     width:35%;
 }
-
 }
