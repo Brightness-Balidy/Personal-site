@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="styleBray.css">
     <link rel="shortcut icon" href="img/STARBOYL2.png" type="image/x-icon">
     <link rel="stylesheet" href="VarelaRound-Regular.ttf">
+
 </head>
 <body>
    <nav class="logo">
         <a href="index.html"><img src="img/STARBOYL2.png" alt="braylogo"></a> 
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre mim</a></li>
-            <li><a href="#">Especialidades</a></li>
+            <li><a href="#sobremim">Sobre mim</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
         </ul>
     </nav>
     <div class="banner">
@@ -24,11 +26,11 @@
         <a href="#">Mais Detalhes</a>
     </div>
     <div class="division">
-        <h1>Sobre mim</h1>
+        <h1 id="sobremim">Sobre mim</h1>
         <div class="underline">
         </div>
     </div>
-
+    <br><br><br><br>
     <!--parte de sobre-->
     <section>
         <div class="firstsection">
@@ -55,48 +57,82 @@
                     <p>Jacinto "Bray" um dos seus hobbies favoritos é tocar guitarra, portanto nos seus tempos livres, passa muito tempo a praticar a guitarra, mas esse é so um dos hobbies, pois quando não tem tarefas mais importantes por fazer além de assistir animes, ele gosta também de jogar xadrez, e para além disso. Aprender outras linguas também é um de seus hobbies, estando no momento a estudar uma das suas mais apreciadas que é o italiano.</p>
                 </div>
         </div>
-        <div class="secondsection">
-            
+    </section><br><br><br><br><br><br>
+    <div class="division">
+        <h1 id="galeria">Galeria</h1>
+        <div class="underline">
         </div>
-        
-    </section><br>
+    </div>
+    <br><br>
+    <section class="gal">
+        <p>Esta seção apresenta algumas fotografias minhas e de alguns dos meus amigos, incluindo o meu animal de estimação, em certos momentos que ficaram marcados para sempre através de um click da camera</p>
     <div class="container-galeria">
         <div class="ittem-galeria " >
-           <img src="./img/pic1.jpg" alt="" class="img-galeria">
+           <a href="img/pic1.jpg"><img src="./img/pic1.jpg" alt="" class="img-galeria"></a>
            <span class="title-galeria">
                imagem 1
            </span>
         </div>
         <div class="ittem-galeria ">
-            <img src="./img/pic2.jpg" alt="" class="img-galeria">
+            <a href="img/pic2.jpg"><img src="./img/pic2.jpg" alt="" class="img-galeria"></a>
             <span class="title-galeria">
                 imagem 2
             </span>
         </div>
         <div class="ittem-galeria h-2">
-            <img src="./img/pic4.jpg" alt="" class="img-galeria">
+            <a href="img/pic4.jpg"><img src="./img/pic4.jpg" alt="image of me" class="img-galeria"></a>
             <span class="title-galeria">
                 imagem 3
             </span>
         </div>
         <div class="ittem-galeria ">
-            <img src="./img/pic3.jpg" alt="" class="img-galeria">
+            <a href="img/pic3.jpg"><img src="./img/pic3.jpg" alt="" class="img-galeria"></a>
             <span class="title-galeria">
                 imagem 4
             </span>
         </div>
-        
-       
-        
-        <div class="ittem-galeria ">
-            <img src="./img/DOGPIC.jpg" alt="" class="img-galeria">
+        <div class="ittem-galeria h-1">
+           <a href="img/edit zou.jpg"><img src="./img/edit zou.jpg" alt="" class="img-galeria"></a>
             <span class="title-galeria">
-                imagem 7
+                imagem 5
             </span>
         </div>
        
-        
     </div>
-    
+    </section><br>
+    <div class="division">
+        <h1 id="tecnologias">Tecnologias</h1>
+        <div class="underline">
+        </div>
+    </div>
+    <section class="habits"><br><br>
+        <p>Nesta area são apresentados em percentagem o nivel de conhecimento que tenho de algumas tecnologias de desenvolvimento incluindo, linguagens como PHP, Java e javascript</p>
+        <div class="habs">
+            <div class="habsin one">
+                <img class="habs-img" src="img/java.png" alt="java"><br>
+                <h2>JAVA</h2>
+                <div class="bars">
+                    <div class="bar1">60%</div>
+                </div>
+            </div>
+            <div class="habsin two">
+                <img src="img/javascript.png" alt="javascript" class="habs-img">
+                <br>
+                <h2>JavaScript</h2>
+                <div class="bars">
+                    <div class="bar2">30%</div>
+                </div>
+            </div>
+            <div class="habsin three">
+                <img src="img/php.png" alt="php" class="habs-img"><br>
+                <h2>PHP</h2>
+                <div class="bars">
+                    <div class="bar3">40%</div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+        
 </body>
 </html>

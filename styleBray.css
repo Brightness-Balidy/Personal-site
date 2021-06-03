@@ -81,10 +81,11 @@ p{
 .division{
     width: 100%;
     height: 50px;
-    /*background-color: aqua;*/
+    background-color: rgb(48, 47, 151);
     display: flex;
     flex-direction: column;
     margin-top: 5px;
+    padding-left: 100px;
 }
 h1{
     font-size: 1.7em;
@@ -99,7 +100,8 @@ h2{
     width: 70px;
     background-color:aqua;
     border-radius: 10px;
-    padding-left: 5px;
+    padding-left: 20px;
+    margin-left: 20px;
 }
 section .firstsection{
     width: 100%;
@@ -148,12 +150,22 @@ section .firstsection{
     background-color: black;
   
 }
-
-
+/*galeria*/
 *{
     padding: 0;
     margin:0;
     box-sizing: border-box;
+}
+.gal{
+    height: auto;
+    width: 100%;
+    background-color: blueviolet;
+}
+.gal p{
+    display: block;
+    margin-left:20%;
+    margin-right: 20%;
+    padding-top:20px;
 }
 .container-galeria{
     display: grid;
@@ -170,6 +182,7 @@ section .firstsection{
     width:100%;
     object-fit: cover;
 }
+
 
 .ittem-galeria .title-galeria{
     position:absolute;
@@ -194,10 +207,12 @@ section .firstsection{
 .w-2{
     grid-column: span 2;
 }
+
+
+
 /*display em tela maior que 768px*/
 @media screen and (min-width: 768px){
-    /*cabecalho*/
-    
+    /*cabecalho*/    
 nav{
     flex-direction: row;
     justify-content:space-around;
@@ -247,4 +262,85 @@ section .firstsection{
     height: 365px;
     width:35%;
 }
+
+/*habilidades*/
+
+.habits{
+    height:500px;
+    width: 100%;
+   /* background-color: rgb(207, 75, 75);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.habits p{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-justify: distribute;
+}
+.habs{
+    height: 290px;
+    width: 65%;
+   /* background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    
+}
+.habsin{
+    height: 90%;
+    width: 80px;
+}
+.habs-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.one{
+   /* background-color: blue;*/
+    width: 33.3%;
+    margin-right: 1%;
+}
+.two{
+  /*  background-color:rgb(58, 126, 58);*/
+    width: 33.3%;
+    
+}
+
+.three{
+   /* background-color: rgb(208, 255, 0);*/
+    width: 33.3%;
+    margin-left:1%;
+}
+.bars{
+    height: 16px;
+    width: 250px;
+    background-color: grey;
+    margin-top: 2%;
+}
+.bar1{
+    height: 100%;
+    width: 60%;
+    background-color:brown;
+}
+.bar2{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+.bar3{
+    height: 100%;
+    width: 40%;
+    background-color:brown;
+}
+
+
+}
+
+
+    
+
+   
+
