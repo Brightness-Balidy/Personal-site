@@ -1,7 +1,27 @@
 /*formatacao geral*/
+/*ajustando o scroll*/
+* {
+    scrollbar-width: thin;
+    scrollbar-color:grey rgb(177, 174, 174);
+  }
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background:white
+
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+    border: 1px solid rgb(177, 174, 174);
+  }
 html{
     scroll-behavior: smooth;
 }
+
 body{
    font-family: 'varela round';
     padding: 0px;
@@ -87,7 +107,7 @@ p{
 .division{
     width: 100%;
     height: 50px;
-    background-color: rgb(48, 47, 151);
+   /* background-color: rgb(48, 47, 151);*/
     display: flex;
     flex-direction: column;
     margin-top: 5px;
@@ -165,7 +185,7 @@ section .firstsection{
 .gal{
     height: auto;
     width: 100%;
-    background-color: blueviolet;
+    background:linear-gradient(115deg,blue 10%,skyblue 90%);
 }
 .gal p{
     display: block;
@@ -234,10 +254,11 @@ section .firstsection{
 /*display em tela maior que 768px*/
 @media screen and (min-width: 768px){
     /*footer*/
+    
 .footdiv{
     height: 280px;
     width:100%;
-    background-color: #3b4344;
+    background:linear-gradient(115deg, grey 60%, black 40%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -276,6 +297,9 @@ section .firstsection{
 .footer1 ul li a{
     text-decoration: none;
     color:black
+}
+.footer1 ul li #dif{
+    color:white;
 }
     /*cabecalho*/    
 nav{
